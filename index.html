@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://i0.wp.com/pathfinder-mm.org/wp-content/uploads/2023/02/cropped-PNG3.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+    <title>Pathfinder - Library</title>
+    <!-- font awesome ( icons ) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>     
+<!-- nav start  -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4 fw-bold m-0 me-4" href="#">
+            <!-- Navbar brand -->
+            <img
+            src="https://i0.wp.com/pathfinder-mm.org/wp-content/uploads/2023/02/PNG4.png?resize=768%2C247&ssl=1"
+            height="55"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active me-3" aria-current="page" href="#"
+                  >My Books</a
+                >
+              </li>
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Browse  </a>
+                <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Menu</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                 <li><a class="dropdown-item" href="#">Myanmar &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#"></a> &nbsp;&nbsp;Physics</li>
+                    <li><a class="dropdown-item" href="#"></a> &nbsp;&nbsp;Maths</li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">English &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#"></a> &nbsp;&nbsp;Php</li>
+                    <li><a class="dropdown-item" href="#"><a> &nbsp;&nbsp;Laravel</a></li>
+                  </ul>
+                </li>
+                </ul>
+              </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex search-box" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i
+                class="fa-solid fa-magnifying-glass search-icon fs-4 text-black-50"
+              ></i>
+            </form>
+<!--             <div class="d-flex gap-3">
+              <button class="btn btn-outline-dark">Log In</button>
+              <button class="btn btn-dark">Sign Up</button>
+            </div> -->
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+<br><br><br><br>
+<section class="container" >
+      <!-- welcome section start-->
+      <div class="p-3 bg-body-tertiary rounded">
+        <h2 class="text-dark mb-4">Welome From Pathfiner Library</h2>
+              <div class="row">
+                <div class="col-4" id="phone-size-block1">
+                  <div class="card">
+                    <div class="card-body d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-book-open cus-font-size"></i>
+                      <div>
+                        <h5>Read Books</h5>
+                        <p>
+                          This Library webapplication is for pathfinder student blahblah blah
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-4" id="phone-size-block2" >
+                  <div class="card">
+                    <div class="card-body d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-search cus-font-size"></i>
+                      <div>
+                        <h5>Explore Books</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur dolor sit ipsum
+                          dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4" id="phone-size-block3" >
+                  <div class="card">
+                    <div class="card-body d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-download cus-font-size"></i>
+                      <div>
+                        <h5>Download Books</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur dolor sit ipsum
+                          dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- welcome section end-->
+
+      <!-- trending section start -->
+      <div class="card" >
+        <div class="px-3 my-4">
+        <h1>
+          <a href="#" class="text-dark"><span style="font-size: 20px;"  >Trending Books</span></a>
+        </h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="news-slider" class="owl-carousel">
+                <div class="post-slide">
+                  <div class="post-img">
+                    <img src="./books/book1.jpg" alt="">
+                    <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                  </div>
+                  <div class="post-content">
+                    <h3 class="post-title">
+                        <a href="#">Myanmar</a>
+                    </h3>
+                            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+                    <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="#Download" class="btn btn-warning" id="phone-size-button2" data-toggle="modal" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                  </div>
+                </div>
+                <div class="post-slide">
+                  <div class="post-img">
+                    <img src="./books/book2.jpg" alt="">
+                        <a href="#" class="over-layer">
+                          <i class="fa fa-link"></i>
+                        </a>
+                  </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">Myanmar</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book3.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">Myanmar</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book4.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">Myanmar</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book6.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">Myanmar</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book7.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">Myanmar</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- trending section end -->
+<hr>
+      <!-- classic section start -->
+      <div class="card" >
+        <div class="px-3 my-4">
+        <h1>
+          <a href="#" class="text-dark"><span style="font-size: 20px;"  >Tech Books</span></a>
+        </h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="secound-slider" class="owl-carousel">
+                <div class="post-slide">
+                  <div class="post-img">
+                    <img src="./books/book8.jpg" alt="">
+                    <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                  </div>
+                  <div class="post-content">
+                    <h3 class="post-title">
+                        <a href="#">English</a>
+                    </h3>
+                    <a href="" class="btn btn-outline-info" id="phone-size-button1" id="phone-size-button" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                  </div>
+                </div>
+                <div class="post-slide">
+                  <div class="post-img">
+                    <img src="./books/book9.jpg" alt="">
+                        <a href="#" class="over-layer">
+                          <i class="fa fa-link"></i>
+                        </a>
+                  </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">English</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book10.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">English</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book11.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">English</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book12.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">English</a>
+                        </h3>
+                       <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="./books/book12.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="#">English</a>
+                        </h3>
+                        <a href="" class="btn btn-outline-info" id="phone-size-button1" >
+                      <i class="fa fa-book-open" ></i> 
+                      Read
+                    </a>
+                    <a href="" class="btn btn-warning" id="phone-size-button2" >
+                      <i class="fa fa-download"  ></i> 
+                      Download
+                    </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- classic section end -->
+    </section>
+
+    <div class="footer">
+            <p>© Copyright 2023 — Pathfinder Institute Myanmar. All rights reserved.
+            </p>
+        </div>
+<div class="modal fade" id="Download" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you have student id ?</h5>
+        <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="your id">
+          </div>
+        </form><br>
+        <button type="button" class="btn btn-primary">Login</button><br>
+        <br><a href="">If you don't have any student id</a>
+      </div>
+        
+    </div>
+  </div>
+</div>
+
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+        <script src='script.js'></script>
+  </body>
+</html>
